@@ -1,0 +1,50 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   text-align: center;
+   background-color: red;
+}
+
+h1 {
+   padding: 1em;
+   color: white;
+   font-size: 20pt;
+   text-transform: uppercase;
+}
+
+#url {
+   width: 20em;
+   margin: 2em;
+   height: 2.5em;
+   padding-left: 15px;
+   border: none;
+   border-radius: 1rem;
+   box-shadow: 0px 0px 5px 2px white;
+   outline: none;
+}
+
+#containerQrcode {
+   width: 350px;
+   height: 360px;
+   margin: 2em auto;
+   padding: 2em;
+   border-radius: 2em;
+   background-color: black;
+}
+
+#qrcode {
+   width: 250px;
+   height: 250px;
+   border-radius: 2em;
+   background-color: white;
+}
+
+p {
+   color: white;
+   padding-top: 20px;
+   font-size: 1.5em;
+}
